@@ -33,4 +33,4 @@ jobs:
             IMAGE_TAG: latest
           run: |
             docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-            docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+            docker push docker push 602588981985.dkr.ecr.us-east-2.amazonaws.com/django-hello:latest
