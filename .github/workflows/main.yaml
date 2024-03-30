@@ -1,7 +1,7 @@
 name: django-hello build
 on: 
   push: 
-    branches: [ "master" ]
+    branches: [ "main" ]
   
 jobs:
   django-build:
